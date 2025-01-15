@@ -207,11 +207,28 @@ footer{
 
   @media screen and (max-width:576px) {
     .skills-container,
-     .resume-container,
+     .resume-container, .banner,
      footer, 
+     nav,
+     nav > ul,   
     .about-items{
       flex-direction: column;
       
+    }
+    nav > ul{
+      gap: 20px;
+    }
+    .btn-primary{
+      margin-bottom: 20px;
+    }
+    .header{
+      background-image: none;
+    }
+    .banner-profile-picture{
+      width: 100%;
+    }
+    .banner{
+      margin: 20px;
     }
     footer, .about{
         padding: 20px;
